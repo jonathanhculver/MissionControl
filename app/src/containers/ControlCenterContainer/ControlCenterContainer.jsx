@@ -10,12 +10,12 @@ import cssModules from 'react-css-modules';
 class ControlCenterContainer extends Component {
   constructor(props) {
     super(props);
-
+    this.tiles = [0, 1, 2, 3, 4, 5];
   }
 
   render() {
     return (
-      <ControlCenterComponent />
+      <ControlCenterComponent tiles={this.tiles}/>
     );
   }
 }
