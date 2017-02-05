@@ -9,7 +9,10 @@ class LightComponent extends Component {
   constructor(props) {
     super(props);
 
-    this.state = { on: false };
+    this.state = {
+      on: false ,
+      name: props.name
+    };
   }
 
   render() {
@@ -20,7 +23,7 @@ class LightComponent extends Component {
 
     return (
       <div className={tileClasses} onClick={this.onTileClick}>
-        <div className={styles.title}>Living Room</div>
+        <div className={styles.title}>{this.state.name}</div>
         <div className="icon fi-lightbulb"></div>
       </div>
     );

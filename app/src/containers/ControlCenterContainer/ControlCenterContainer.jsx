@@ -10,7 +10,19 @@ import cssModules from 'react-css-modules';
 class ControlCenterContainer extends Component {
   constructor(props) {
     super(props);
-    this.tiles = [0, 1, 2, 3, 4, 5, 6 , 7, 8, 9, 10, 11];
+    this.tiles = ['Living Room',
+      'Kitchen',
+      'Bedroom',
+      'Hallway',
+      'Closet',
+      'Outside',
+      'Office',
+      'Bathroom',
+      'Lamp',
+      'Garage',
+      'Stairs',
+      'Guest Room'
+    ];
   }
 
   render() {

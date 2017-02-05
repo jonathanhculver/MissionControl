@@ -7,7 +7,7 @@ const TileComponent = (props) => {
   return (
     <div className={`small-3 columns`}>
       <div className={styles.tile}>
-        <LightComponent />
+        <LightComponent name={props.name} />
       </div>
     </div>
   );
