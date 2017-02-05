@@ -10,13 +10,12 @@ import cssModules from 'react-css-modules';
 class ControlCenterContainer extends Component {
   constructor(props) {
     super(props);
+
   }
 
   render() {
     return (
-      <div>
-        <ControlCenterComponent />
-      </div>
+      <ControlCenterComponent />
     );
   }
 }

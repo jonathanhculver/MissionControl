@@ -4,7 +4,9 @@ import cssModules from 'react-css-modules';
 
 const ControlCenterComponent = (props) => {
   return (
-    <div className={styles.container}> Control Center </div>
+    <div className={styles.container}> Control Center
+      <div className={styles.containerTitle}></div>
+    </div>
   );
 };
 
