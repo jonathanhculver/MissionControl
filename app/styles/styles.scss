@@ -1,9 +1,11 @@
+$background: #333;
+
 body {
-  background-color: #000;
+  background-color: $background;
 }
 
 #app {
-  padding: 20px;
+  padding: .9375rem;
   padding-left: 10px;
   padding-right: 10px;
 }
