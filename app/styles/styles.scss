@@ -9,3 +9,14 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.icon {
+  display: flex;
+  height: 75%;
+  align-items: center;
+  font-size: 52px;
+
+  &:before {
+    margin: 0 auto;
+  }
+}
