@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import router from './utils/router';
+import ControlCenterContainer from 'containers/ControlCenterContainer/ControlCenterContainer';
 import '../styles/styles.scss';
 
-render(router, document.getElementById('app'));
+render(<ControlCenterContainer />, document.getElementById('app'));
